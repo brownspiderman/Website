@@ -18,6 +18,7 @@
             align-items: center;
             min-height: 100vh;
             background: #c0c0c0;
+            
         }
 
         .player-container {
@@ -203,7 +204,7 @@
         </div>
 
         <div class="display-area">
-            <div class="track-info" id="trackInfo">Ready to play...</div>
+            <div class="track-info" id="trackInfo">Press Play...</div>
             <div class="time-display" id="timeDisplay">00:00 / 00:00</div>
             <div class="progress-bar" id="progressBar">
                 <div class="progress-fill" id="progressFill"></div>
@@ -235,19 +236,19 @@
         
         const playlist = [
             {
-                title: "Your Song Title 1",
-                artist: "Your Name",
-                url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+                title: "aux",
+                artist: "m1xtapeman",
+                url: "https://www.dropbox.com/scl/fo/vm7suq96j3ph0dfxv3tsd/AEGvIDXnqLrwvuCItmUywlM?rlkey=3dpj8w6ei0h9ldq6kfcybad9l&st=pfvuozqr&dl=1"
             },
             {
-                title: "Your Song Title 2",
-                artist: "Your Name",
-                url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3"
+             title: "bangalore",
+                artist: "m1xtapeman",
+                url: "https://www.dropbox.com/scl/fi/ptr2w08ch9gs5lmkxob0d/Bangalore.aif?rlkey=hsliv7urqh1j9bwsxajqbz29d&st=cj0estac&dl=1" 
             },
             {
-                title: "Your Song Title 3",
-                artist: "Your Name",
-                url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3"
+              title: "fuck it",
+                artist: "m1xtapeman",
+                url:"https://www.dropbox.com/scl/fi/m4xlcnpleb5s16tqfqykj/Fuck-it..wav?rlkey=e47vwqvekraise5r73zvg1vg5&st=6bifcx8y&dl=1"  
             }
         ];
 
