@@ -1,0 +1,26 @@
+winamp-player
+├── src
+│   ├── assets
+│   │   ├── fonts
+│   │   └── skins
+│   ├── components
+│   │   ├── Controls.ts
+│   │   ├── Display.ts
+│   │   ├── Equalizer.ts
+│   │   ├── Playlist.ts
+│   │   ├── Titlebar.ts
+│   │   └── VolumeBar.ts
+│   ├── styles
+│   │   ├── components
+│   │   │   └── index.css
+│   │   └── main.css
+│   ├── utils
+│   │   ├── audio.ts
+│   │   └── helpers.ts
+│   ├── app.ts
+│   └── types
+│       └── index.ts
+├── index.html
+├── package.json
+├── tsconfig.json
+└── README.md
